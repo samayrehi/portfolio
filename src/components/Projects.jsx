@@ -21,7 +21,7 @@ const Projects = () => {
             <div className="w-full lg:w-1/4">
               <motion.img
                 variants={container1(2)}
-                initial={{ opacity: 0, x: 100 }}
+                initial={{ opacity: 0, x: -100 }}
                 transition={{ duration: 1 }}
                 whileInView={{ opacity: 1, x: 0 }}
                 src={project.image}

@@ -1,16 +1,14 @@
 import project1 from "./assets/chat-app.png";
-import project2 from "./assets/convert.png";
-import project3 from "./assets/port.png";
-import project4 from "./assets/count-down-timer.png";
-import project5 from "./assets/clock.jpg";
+import project2 from "./assets/currency.jpg";
+import project3 from "./assets/port.jpg";
+import project4 from "./assets/clock.jpg";
+import project5 from "./assets/count-down-timer.jpg";
 
 export const HERO_CONTENT = `I am a passionate Full Stack Developer skilled in MERN Stack technologies like ReactJS, NodeJS, ExpressJS, and MongoDB. I love creating responsive, dynamic web applications with a focus on both front-end and back-end development. With expertise in HTML, CSS, Tailwind-CSS, and experience using Git-GitHub for version control, I am eager to dive into real-world projects. As a fresher, I amm ready to leverage my knowledge and skills to solve complex problems and build innovative digital solutions.`;
 
-export const PART4 = `Although I am a fresher, I am enthusiastic about working on real-world projects that challenge me to grow and improve. I am always eager to learn new technologies and best practices, and I believe my strong problem-solving skills, combined with a dedication to continuous learning, make me a valuable addition to any team.`;
+export const PART4 = `As a fresher, I am excited to apply my skills in real-world projects and continue learning. My certification not only validates my technical knowledge but also reflects my commitment to growth and development in web technologies.`;
 
-export const PART1 = `Hello! I am a certified Full Stack Developer with a strong foundation in MERN Stack technologies, including JavaScript, ReactJS, NodeJS, ExpressJS, and MongoDB. Throughout my learning journey, I have focused on mastering both front-end and back-end development, allowing me to build complete web applications that are not only visually appealing but also highly functional.`;
-export const PART2 = `On the front end, I enjoy working with ReactJS, HTML, CSS, and Tailwind-CSS to create responsive, user-friendly interfaces that enhance the overall user experience. I am passionate about crafting clean, efficient code that brings designs to life. My attention to detail ensures that each project is optimized for both performance and aesthetics.`;
-export const PART3 = `On the back end, I have honed my skills in NodeJS and ExpressJS, building RESTful APIs that efficiently manage data flow and interaction between the server and client. Coupled with my experience in MongoDB for database management, I am able to design robust, scalable solutions.`;
+export const PART1 = `Hello! I’m a certified Full Stack Developer with a focus on MERN Stack technologies. I hold a Completion Certificate in MERN Stack Development from MasyncTech Coding School on Udemy, where I gained hands-on experience with JavaScript, ReactJS, NodeJS, ExpressJS, and MongoDB. This certification has equipped me with the skills to build full-stack web applications that are both dynamic and responsive.`;
 
 export const PROJECTS = [
   {

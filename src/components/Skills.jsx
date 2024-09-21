@@ -13,10 +13,11 @@ const iconVariants = (duration) => ({
   animate: {
     y: [10, -10],
     transition: {
-      duration: duration,
+      duration: 1.5,
       ease: "linear",
       repeat: Infinity,
       repeatType: "reverse",
+      delay: duration,
     },
   },
 });
@@ -35,7 +36,7 @@ const Skills = () => {
           variants={iconVariants(1)}
           initial="initial"
           animate="animate"
-          className="rounded-2xl border-2 border-cyan-500 p-5"
+          className="rounded-2xl border-2 flex flex-col justify-around items-center content-between border-cyan-500 p-5"
         >
           <IoLogoJavascript className="text-5xl text-yellow-500" />
         </motion.div>
@@ -43,7 +44,7 @@ const Skills = () => {
           variants={iconVariants(2)}
           initial="initial"
           animate="animate"
-          className="rounded-2xl border-2 border-cyan-500 p-5"
+          className="rounded-2xl border-2 flex flex-col justify-around items-center content-between border-cyan-500 p-5"
         >
           <FaReact className="text-5xl text-cyan-500" />
         </motion.div>
@@ -51,55 +52,55 @@ const Skills = () => {
           variants={iconVariants(3)}
           initial="initial"
           animate="animate"
-          className="rounded-2xl border-2 border-cyan-500 p-5"
+          className="rounded-2xl border-2 flex flex-col justify-around items-center content-between border-cyan-500 p-5"
         >
           <FaNodeJs className="text-5xl text-green-700" />
         </motion.div>
         <motion.div
-          variants={iconVariants(2)}
+          variants={iconVariants(4)}
           initial="initial"
           animate="animate"
-          className="rounded-2xl border-2 border-cyan-500 p-5"
+          className="rounded-2xl border-2 flex flex-col justify-around items-center content-between border-cyan-500 p-5"
         >
           <SiExpress className="text-5xl text-lime-100" />
         </motion.div>
         <motion.div
-          variants={iconVariants(1)}
+          variants={iconVariants(5)}
           initial="initial"
           animate="animate"
-          className="rounded-2xl border-2 border-cyan-500 p-5"
+          className="rounded-2xl border-2 flex flex-col justify-around items-center content-between border-cyan-500 p-5"
         >
           <BiLogoMongodb className="text-5xl text-green-500" />
         </motion.div>
         <motion.div
-          variants={iconVariants(2)}
+          variants={iconVariants(6)}
           initial="initial"
           animate="animate"
-          className="rounded-2xl border-2 border-cyan-500 p-5"
+          className="rounded-2xl border-2 flex flex-col justify-around items-center content-between border-cyan-500 p-5"
         >
           <RiTailwindCssFill className="text-5xl text-sky-500" />
         </motion.div>
         <motion.div
-          variants={iconVariants(3)}
+          variants={iconVariants(7)}
           initial="initial"
           animate="animate"
-          className="rounded-2xl border-2 border-cyan-500 p-5"
+          className="rounded-2xl border-2 flex flex-col justify-around items-center content-between border-cyan-500 p-5"
         >
           <TiHtml5 className="text-5xl text-orange-500" />
         </motion.div>
         <motion.div
-          variants={iconVariants(2)}
+          variants={iconVariants(8)}
           initial="initial"
           animate="animate"
-          className="rounded-2xl border-2 border-cyan-500 p-5"
+          className="rounded-2xl border-2 flex flex-col justify-around items-center content-between border-cyan-500 p-5"
         >
           <FaGithub className="text-5xl text-white" />
         </motion.div>
         <motion.div
-          variants={iconVariants(1)}
+          variants={iconVariants(9)}
           initial="initial"
           animate="animate"
-          className="rounded-2xl border-2 border-cyan-500 p-5"
+          className="rounded-2xl border-2 flex flex-col justify-around items-center content-between border-cyan-500 p-5"
         >
           <FaCss3Alt className="text-5xl text-indigo-500" />
         </motion.div>
