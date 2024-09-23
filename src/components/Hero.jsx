@@ -32,7 +32,7 @@ const Hero = () => {
               whileInView={{ opacity: 1, x: 0 }}
               initial={{ opacity: 0, x: -100 }}
               transition={{ duration: 1 }}
-              className="bg-gradient-to-r from-indigo-300 via-blue-500 to-cyan-300 bg-clip-text lg:bg-gradient-to-r lg:from-cyan-300 lg:via-blue-500 lg:to-indigo-300 text-3xl tracking-tight text-transparent"
+              className="bg-gradient-to-r from-violet-200 via-slate-200 to-purple-200 bg-clip-text lg:bg-gradient-to-r lg:from-cyan-200 lg:via-blue-300 lg:to-indigo-100 italic text-3xl tracking-tight text-transparent"
             >
               Full Stack Developer
             </motion.span>
