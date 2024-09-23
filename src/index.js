@@ -1,8 +1,7 @@
 import project1 from "./assets/chat-app.png";
 import project2 from "./assets/currency.jpg";
 import project3 from "./assets/port.jpg";
-import project4 from "./assets/clock.jpg";
-import project5 from "./assets/count-down-timer.jpg";
+import project4 from "./assets/dash.jpg";
 
 export const HERO_CONTENT = `I am a passionate Full Stack Developer skilled in MERN Stack technologies like ReactJS, NodeJS, ExpressJS, and MongoDB. I love creating responsive, dynamic web applications with a focus on both front-end and back-end development. With expertise in HTML, CSS, Tailwind-CSS, and experience using Git-GitHub for version control, I am eager to dive into real-world projects. As a fresher, I amm ready to leverage my knowledge and skills to solve complex problems and build innovative digital solutions.`;
 
@@ -40,18 +39,11 @@ export const PROJECTS = [
     technologies: ["Tailwind-CSS", "ReactJS (With Vue)", "Some CSS"],
   },
   {
-    title: "Real-Time Analog Clock",
+    title: "Dashboard",
     image: project4,
     description:
-      "Developed a Real-time and a responsive Analog Clock which displays real-time movement of hour, minute, and second hands.",
-    technologies: ["HTML", "CSS", "JavaScript"],
-  },
-  {
-    title: "Count Down Timer",
-    image: project5,
-    description:
-      "Created a Dynamic CountDown Timer that counts down to a specific date and time, with a user-friendly interface.",
-    technologies: ["HTML", "CSS", "JavaScript"],
+      "A Financial Dashboard featuring responsive design and Real-time data visualization for a sleek UI.",
+    technologies: ["NodeJS", "ReactJS (With Vue)", "Some CSS"],
   },
 ];
 

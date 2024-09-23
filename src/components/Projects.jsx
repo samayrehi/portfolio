@@ -32,7 +32,7 @@ const Projects = () => {
               />
             </div>
             <div className="w-full max-w-3xl lg:w-3/4">
-              <motion.h6
+              <motion.h4
                 variants={container2(3)}
                 initial={{ opacity: 0, x: 100 }}
                 transition={{ duration: 1 }}
@@ -40,7 +40,7 @@ const Projects = () => {
                 className="mb-2 font-extrabold text-cyan-300"
               >
                 {project.title}
-              </motion.h6>
+              </motion.h4>
               <motion.p
                 variants={container2(3.5)}
                 initial={{ opacity: 0, x: 100 }}
