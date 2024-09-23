@@ -49,6 +49,6 @@ export const PROJECTS = [
 
 export const CONTACT = {
   address: "Jamnagar, Gujarat, India (361 008) ",
-  phoneNo: "+91 9727 3645 10",
+  phoneNo: "+91 9727 364 510",
   email: "samaymukeshrehi@gmail.com",
 };
